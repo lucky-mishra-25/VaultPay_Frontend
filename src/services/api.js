@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API = axios.create({
   baseURL:
-    process.env.REACT_APP_API_URL,
+    "https://vaultpay-backend-oi8j.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
